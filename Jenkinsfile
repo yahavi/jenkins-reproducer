@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage("Test") {
             steps {
-                rtDownload(serverId: 'artifactory-test', specPath: 'spec-dl.json')
+                rtDownload(serverId: 'ecosys', specPath: 'spec-dl.json')
             }
         }
 
